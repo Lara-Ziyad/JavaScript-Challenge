@@ -1,0 +1,20 @@
+{
+  "name": "issuu-frontend-test",
+  "version": "1.0.0",
+  "description": "This is the Javascript part of the issuu frontend test",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "test": "mocha tests/*"
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "private": true,
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.0.1",
+    "mocha-loader": "^0.7.1",
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.15.1"
+  }
+}
